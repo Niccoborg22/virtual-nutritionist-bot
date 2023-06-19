@@ -1,5 +1,5 @@
 # Fitness Bot - Conversational Model 
-## Technologies
+## TECHONOLOGIES
 ---
 The technologies used in this application are :
 - Python
@@ -8,13 +8,12 @@ The technologies used in this application are :
     - PaLM
 - Gradio
 
-## Architecture
+## ARCHITECTURE
 ---
 **NEED TO UPDATE THIS**  
 
-![Alt text](image.png)
 
-## The bot
+## BOT
 ---
 ### Goal
 ---
