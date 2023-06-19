@@ -1,6 +1,5 @@
 # Fitness Bot - Conversational Model 
 ## TECHONOLOGIES
----
 The technologies used in this application are :
 - Python
 - Google Cloud
@@ -9,12 +8,10 @@ The technologies used in this application are :
 - Gradio
 
 ## ARCHITECTURE
----
 **NEED TO UPDATE THIS**  
 
 
 ## BOT
----
 ### Goal
 ---
 The goal of the chatbot is to help people increase their nutritional awareness
