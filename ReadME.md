@@ -9,7 +9,7 @@ The technologies used in this application are :
 **NEED TO UPDATE THIS**  
 
 
-## NLP Conversational Model
+## NLP CONVERSATIONAL MODEL
 ### Goal
 ---
 The goal of the chatbot is to help people increase their nutritional awareness
@@ -32,7 +32,7 @@ Some further future improvements to be implemented:
 - Create a Web Application that, upon identification, visualize your data
 - Deploy the application on Telegram, WhatsApp and any other medium of communication
 
-## Computer Vision Model
+## COMPUTER VISION MODEL
 ### Goal
 ---
 The goal of the Computer Vision Model is to recognize the food in the picture
@@ -50,7 +50,7 @@ Some further future improvements to be implemented:
 - Create a more accurate model by increasing the number of train images
 - **ADD ANYTHING THAT WE MIGHT NEED**
 
-## Web Application
+## WEB APPLICATION
 ### Goal
 ---
 The goal of the Web Application is to render a chat bot with which the user can interact by text and images with
