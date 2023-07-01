@@ -6,13 +6,13 @@ The technologies used in this application are :
 - Web Application
 
 ## ARCHITECTURE
-**NEED TO UPDATE THIS**  
+![image](https://github.com/Niccoborg22/virtual-nutritionist-bot/assets/114749413/f48b7991-28f0-471c-8c4b-8101166292dd)
 
 
 ## NLP CONVERSATIONAL MODEL
 ### Goal
 ---
-The goal of the chatbot is to help people increase their nutritional awareness
+The goal of the chatbot is to help people increase their nutritional awareness by creating a chatbot experience
 
 ### Technology
 ---
@@ -31,6 +31,14 @@ Some further future improvements to be implemented:
 - Have a non-relational database linked to each account to keep track of each account's data
 - Create a Web Application that, upon identification, visualize your data
 - Deploy the application on Telegram, WhatsApp and any other medium of communication
+
+### Intent architecture
+---
+The NLP Conversational Model has been developed using Google Dialogflow, the intents have been architected using the following schema: 
+![image](https://github.com/Niccoborg22/virtual-nutritionist-bot/assets/114749413/62eae0d8-c5ed-420d-a8f7-d037976171fb)
+
+Some of the answers provided by the chatbot will be returned using Vertex AI and the LLM model offered by Google. In order to do so the interaction between the Conversational Model and Vertex AI has been coded using Python.
+
 
 ## COMPUTER VISION MODEL
 ### Goal
