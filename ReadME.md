@@ -39,6 +39,12 @@ The NLP Conversational Model has been developed using Google Dialogflow, the int
 
 Some of the answers provided by the chatbot will be returned using Vertex AI and the LLM model offered by Google. In order to do so the interaction between the Conversational Model and Vertex AI has been coded using Python.
 
+**Entities utilized**
+In order for the intents to work properly, the following entities have been created:
+- @entity_foodtype: Set of all the food types that the computer vision model can recognize
+- @entity_gender: Gender types, pre-built entity
+- @entity_meal: Type of meal, breakfast, lunch or dinner
+
 
 ## COMPUTER VISION MODEL
 ### Goal
