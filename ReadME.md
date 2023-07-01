@@ -61,7 +61,7 @@ Some further future improvements to be implemented:
 ## WEB APPLICATION
 ### Goal
 ---
-The goal of the Web Application is to render a chat bot with which the user can interact by text and images with
+The goal of the Web Application is to render a chat bot with which the user can interact by text and images
 
 ### Technology
 ---
@@ -69,6 +69,9 @@ The Web Application has been developed using the following technologies:
 - Python
 - Gradio
 
-  ### Images
-  ---
-  **ADD IMAGES**
+### Images
+---
+![image](https://github.com/Niccoborg22/virtual-nutritionist-bot/assets/114749413/ab18161f-a0c5-43aa-82ff-5052b4afdf34)  
+![image](https://github.com/Niccoborg22/virtual-nutritionist-bot/assets/114749413/6a4453a1-bda9-4d54-892b-d4a38f4ded83)
+
+
