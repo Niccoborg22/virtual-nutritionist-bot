@@ -1,10 +1,14 @@
 # Fitness Bot - Conversational Model 
 ## TECHONOLOGIES
 The technologies used in this application are :
-- NLP Conversational Model
-- Computer Vision
+- NLP Conversational Model 
+    - Google Dialogflow
+- Large Language Model 
+    - Google Vertex AI
+- Computer Vision Model
+    - Roboflow YoloV8
 - Web Application
-
+    - Gradio
 ## ARCHITECTURE
 ![image](https://github.com/Niccoborg22/virtual-nutritionist-bot/assets/114749413/f48b7991-28f0-471c-8c4b-8101166292dd)
 
@@ -28,6 +32,7 @@ The persona of this chatbot is anyone that is concerned about his health and wan
 ### Future improvements
 ---
 Some further future improvements to be implemented:
+- Add identification in the frontend and change the conversational model if the user is identified
 - Have a non-relational database linked to each account to keep track of each account's data
 - Create a Web Application that, upon identification, visualize your data
 - Deploy the application on Telegram, WhatsApp and any other medium of communication
