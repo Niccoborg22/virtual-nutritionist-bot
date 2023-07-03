@@ -10,7 +10,7 @@ The technologies used in this application are :
 - Web Application
     - Gradio
 ## ARCHITECTURE
-![Alt text](image.png)
+[![Alt text](image.png)](https://github.com/Niccoborg22/virtual-nutritionist-bot/raw/master/image.png)
 
 
 ## NLP CONVERSATIONAL MODEL
