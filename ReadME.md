@@ -1,14 +1,23 @@
-# Fitness Bot - Conversational Model 
+<p align="center">
+  <img src="https://github.com/Niccoborg22/virtual-nutritionist-bot/assets/114337279/987ad985-2afd-4c93-9d2b-680fb43ce978" alt="Small logo" width="20%">
+</p>
+<h3 align="center">Fitbot: Nutrition Assistant</h3>
+
+<p align="center"><b>Done by:</b> João André Pinho, Max Heilingbrunner, Niccolò Matteo Borgato, Nicholas Dieke</p>
+
 ## TECHONOLOGIES
 The technologies used in this application are :
 - NLP Conversational Model 
     - Google Dialogflow
 - Large Language Model 
-    - Google Vertex AI
+    - Google Vertex AI (Palm2)
 - Computer Vision Model
-    - Roboflow YoloV8
+    - Roboflow
+    - Ultralytics YoloV8
 - Web Application
     - Gradio
+
+
 ## ARCHITECTURE
 ![image](https://github.com/Niccoborg22/virtual-nutritionist-bot/assets/114749413/e9a3f9b0-03be-42f1-adaa-8c88302ed0e6)
 
@@ -16,7 +25,7 @@ The technologies used in this application are :
 ## NLP CONVERSATIONAL MODEL
 ### Goal
 ---
-The goal of the chatbot is to help people increase their nutritional awareness by creating a chatbot experience
+The goal of the chatbot is to help people increase their nutritional awareness by creating a chatbot experience.
 
 ### Technology
 ---
@@ -27,15 +36,16 @@ The NLP Conversational Model has been developed using the following technologies
 
 ### Persona
 ---
-The persona of this chatbot is anyone that is concerned about his health and wants to have visibility on his eating
+The persona of this chatbot is anyone that is concerned about his health and wants to have visibility on his eating.
 
 ### Future improvements
 ---
 Some further future improvements to be implemented:
-- Add identification in the frontend and change the conversational model if the user is identified
-- Have a non-relational database linked to each account to keep track of each account's data
-- Create a Web Application that, upon identification, visualize your data
-- Deploy the application on Telegram, WhatsApp and any other medium of communication
+- Add identification in the frontend and improve context awareness by having access to previous conversations of the user once this one is identified.
+- Have a non-relational database linked to each account to keep track of each account's data.
+- Create a Web Application that, upon identification, visualize your data.
+- Continuosly store and process the 80% FAQ in order to improve the usefulness and robustness of the conversational model to user's most common prompts.
+
 
 ### Intent architecture
 ---
@@ -59,15 +69,15 @@ The goal of the Computer Vision Model is to recognize the food in the picture
 ### Technology
 ---
 The Computer Vision Model has been developed using the following technologies: 
-- Dialogflow
-    - YOLOV8
+- Roboflow
+- Ultralytics YOLOV8
 - Python
 
 ### Future improvements
 ---
 Some further future improvements to be implemented:
-- Create a more accurate model by increasing the number of train images
-- **ADD ANYTHING THAT WE MIGHT NEED**
+- Create a more accurate model by increasing the number and diversity of the train images (i.e., foods from different cultures).
+- Design a portion estimator that won't need to ask the user for the total number of grams of the dish.
 
 ## WEB APPLICATION
 ### Goal
@@ -79,6 +89,11 @@ The goal of the Web Application is to render a chat bot with which the user can 
 The Web Application has been developed using the following technologies: 
 - Python
 - Gradio
+
+### Future improvements
+---
+Some further future improvements to be implemented:
+- Fix the picture upload functionality in order to be processed by the Computer Vision model instead of submitting the image local path.
 
 ### Images
 ---
