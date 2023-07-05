@@ -73,6 +73,8 @@ The Computer Vision Model has been developed using the following technologies:
 - Ultralytics YOLOV8
 - Python
 
+![image](https://github.com/Niccoborg22/virtual-nutritionist-bot/assets/114337279/98926890-0d4f-4f67-b38e-dddaf2e444c1)
+
 ### Future improvements
 ---
 Some further future improvements to be implemented:
