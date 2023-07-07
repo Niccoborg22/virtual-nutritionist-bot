@@ -3,8 +3,6 @@
 </p>
 <h3 align="center">Fitbot: Nutrition Assistant</h3>
 
-<p align="center"><b>Done by:</b> João André Pinho, Max Heilingbrunner, Niccolò Matteo Borgato, Nicholas Dieke</p>
-
 ## TECHONOLOGIES
 The technologies used in this application are :
 - NLP Conversational Model 
