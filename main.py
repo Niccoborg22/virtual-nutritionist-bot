@@ -136,7 +136,7 @@ with gr.Blocks(css=".gradio-container {background-color: #0E2C4B}") as demo:
             # Create an upload button component to add images
             btn = gr.UploadButton("📁", file_types=["image"])
 
-    with gr.Row(scale=0.7):
+    with gr.Row():
         clear_btn = gr.Button(value="🗑️  Clear")
 
     
