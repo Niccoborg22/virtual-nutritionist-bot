@@ -5,5 +5,5 @@ google-auth
 google-auth-oauthlib
 google-auth-httplib2
 google-api-core
-roboflow
+roboflow == 1.1.0
 gradio
