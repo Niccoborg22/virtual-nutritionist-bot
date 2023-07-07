@@ -4,25 +4,15 @@ import os
 from google.cloud import dialogflow
 import uuid
 from google.oauth2 import service_account
-import random
 import time
-from PIL import Image
-import numpy as np
 # Large Language Model
 from google.oauth2 import service_account
 from vertexai.preview.language_models import TextGenerationModel
 from google.cloud import aiplatform
 # Computer Vision Model
-from IPython import display
-display.clear_output()
-import ultralytics
-ultralytics.checks()
-from ultralytics import YOLO
-from IPython.display import display, Image
 from roboflow import Roboflow
 # Web Application
 import gradio as gr
-import tempfile
 
 service_account_key = os.getenv('service_account_key')
 credentials = service_account.Credentials.from_service_account_file(service_account_key)
