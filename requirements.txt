@@ -55,7 +55,7 @@ oauthlib==3.2.2
 opencv-python==4.8.0.74
 orjson==3.9.1
 packaging==23.1
-pandas==2.0.3
+pandas
 Pillow==10.0.0
 proto-plus==1.22.3
 protobuf==4.23.4
