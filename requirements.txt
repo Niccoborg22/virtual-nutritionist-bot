@@ -50,7 +50,7 @@ matplotlib
 mdit-py-plugins==0.3.3
 mdurl==0.1.2
 multidict==6.0.4
-numpy==1.25.0
+numpy
 oauthlib==3.2.2
 opencv-python==4.8.0.74
 orjson==3.9.1
